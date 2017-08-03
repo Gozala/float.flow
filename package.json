@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "float.flow",
   "description": "Typed floating point numbers",
   "keywords": ["Float.flow", "typed", "flow"],

@@ -3,7 +3,7 @@
 import * as Number from "./Number"
 
 /*::
-opaque type float:number = number
+export opaque type float:number = number
 */
 
 export const parseFloat = (input:string):?float => {
