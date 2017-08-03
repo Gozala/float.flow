@@ -1,12 +1,8 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "name": "float.flow",
   "description": "Typed floating point numbers",
-  "keywords": [
-    "Float.flow",
-    "typed",
-    "flow"
-  ],
+  "keywords": ["Float.flow", "typed", "flow"],
   "main": "lib/Float",
   "module": "src/Float",
   "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
@@ -40,10 +36,7 @@
     "start": "flow-copy-source --watch --verbose src lib & babel --watch --out-dir lib src"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --parser flow --no-semi --write",
-      "git add"
-    ]
+    "*.js": ["prettier --parser flow --no-semi --write", "git add"]
   },
   "quokka": {
     "alias": {
@@ -51,8 +44,6 @@
     },
     "pro": true,
     "babel": true,
-    "plugins": [
-      "alias-quokka-plugin"
-    ]
+    "plugins": ["alias-quokka-plugin"]
   }
 }
