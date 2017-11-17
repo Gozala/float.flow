@@ -1,12 +1,10 @@
 /* @flow */
 
-import * as Number from "./Number"
+export { isNaN, isFinite } from "./Number"
 
-/*::
-export opaque type float:number = number
-*/
+export opaque type float: number = number
 
-export const parseFloat = (input:string):?float => {
+export const parseFloat = (input: string): ?float => {
   switch (input) {
     case "":
       return null
@@ -31,6 +29,4 @@ export const parseFloat = (input:string):?float => {
   }
 }
 
-export const toFloat = (value:number):float => value
-export const isNaN = Number.isNaN
-export const isFinite = Number.isFinite
+export const toFloat = (value: number): float => value
